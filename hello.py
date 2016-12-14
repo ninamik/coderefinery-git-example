@@ -1,7 +1,6 @@
- def say_something(something):
-     if something:
-+       something.reverse()
+def say_something(something):
+    if something:
+        something.reverse()
         print(" ".join(something))
-     else:
+    else:
         print("Hello World!")
-say_reversed
